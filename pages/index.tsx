@@ -2,9 +2,6 @@ import Blobby from '@/components/svg/blobby'
 import { useLogin, usePrivy } from '@privy-io/react-auth'
 import Head from 'next/head'
 import { useRouter } from 'next/router'
-import Image from 'next/image';
-import Link from 'next/link';
-
 
 const Index = () => {
 	const router = useRouter()
@@ -26,21 +23,11 @@ const Index = () => {
 	return (
 		<>
 			<Head>
-				<title>slay⚡caster</title>
+				<title>Privy Farcaster Demo</title>
 			</Head>
 			<main>
 				<div className='flex h-screen w-screen flex-col items-center justify-center'>
-<<<<<<< HEAD
-					<Image
-						src="/images/slaycaster-suare.png" // Path relative to the public directory
-						alt="Slaycaster Logo"
-						width={160} // Width of the image in pixels
-						height={40} // Height of the image in pixels
-						className="w-40 sm:w-40 md:w-48"
-					/>
-=======
-				    <img src="https://slaycaster.4everland.store/slaycasterlogo.png" alt="Slaycaster Logo" className="w-40 sm:w-40 md:w-48" />
->>>>>>> parent of c334876 (improved logo)
+				    <img src="https://static.wixstatic.com/media/707696_fd9b320bb38b48eea06468dfa4a85711~mv2.png" alt="Slaycaster Logo" className="w-40 sm:w-40 md:w-48" />
 					<h1 className='my-4 text-md text-gray-800'>
 						Login with Farcaster using Privy and start casting.
 					</h1>
