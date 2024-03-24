@@ -1,25 +1,11 @@
-# Privy Farcaster Demo
+# slay⚡caster
 
-This is a simple demo using Privy to login and write with Farcaster.
+This is a simple experiment using Privy to log in and write with Farcaster. Once approving the profile manager you can cast, remove casts, like, and recast.
 
 ## Documentation
 
-Integrate Farcaster login with Privy by following [this guide](https://docs.privy.io/guide/react/recipes/misc/farcaster).
-To enable your users to write to their Farcaster account, please refer to the [Privy Farcaster Write documentation](https://docs.privy.io/guide/react/recipes/misc/farcaster-writes).
+I integrated Farcaster login with Privy by following [this guide](https://docs.privy.io/guide/react/recipes/misc/farcaster).
+and referred to the [Privy Farcaster Write documentation](https://docs.privy.io/guide/react/recipes/misc/farcaster-writes).
 
-## Run this demo locally
-
-```sh
-# Clone repo
-git clone git@github.com:privy-io/farcaster-demo.git
-cd farcaster-demo
-
-# Create .env.local file from example, filling in your Privy App ID.
-cp .env.example.local .env.local
-
-# Install dependencies
-npm i
-
-# Start the demo
-npm run dev
-```
+## See the example
+https://slaycaster-justsoantsys-projects.vercel.app/
