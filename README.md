@@ -10,3 +10,6 @@ and referred to the [Privy Farcaster Write documentation](https://docs.privy.io/
 
 ## See the example
 [https://slaycaster-justsoantsys-projects.vercel.app/](https://slaycaster.vercel.app/)https://slaycaster.vercel.app/
+
+## My Frame Attempt (sharing Livepeer videos and livestreams as a Frame)
+https://sharelive-frame.vercel.app/
